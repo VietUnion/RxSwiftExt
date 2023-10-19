@@ -199,6 +199,9 @@
 		C4D2154420118FBA009804AE /* Observable+OfTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2154020118F8B009804AE /* Observable+OfTypeTests.swift */; };
 		C4D2154520118FC1009804AE /* ofType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2153E20118A81009804AE /* ofType.swift */; };
 		C4D2154620118FC1009804AE /* ofType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D2153E20118A81009804AE /* ofType.swift */; };
+		D110BA672AE1403F00657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA662AE1403F00657E79 /* Observable+Alias.swift */; };
+		D110BA682AE1403F00657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA662AE1403F00657E79 /* Observable+Alias.swift */; };
+		D110BA692AE1403F00657E79 /* Observable+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110BA662AE1403F00657E79 /* Observable+Alias.swift */; };
 		D7C72A3E1FDC5C5D00EAAAAB /* NwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C72A3D1FDC5C5D00EAAAAB /* NwiseTests.swift */; };
 		D7C72A3F1FDC5C5D00EAAAAB /* NwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C72A3D1FDC5C5D00EAAAAB /* NwiseTests.swift */; };
 		D7C72A401FDC5C5D00EAAAAB /* NwiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C72A3D1FDC5C5D00EAAAAB /* NwiseTests.swift */; };
@@ -382,6 +385,7 @@
 		BF79DA0D206C185B008AA708 /* WithUnretainedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithUnretainedTests.swift; sourceTree = "<group>"; };
 		C4D2153E20118A81009804AE /* ofType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ofType.swift; sourceTree = "<group>"; };
 		C4D2154020118F8B009804AE /* Observable+OfTypeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+OfTypeTests.swift"; sourceTree = "<group>"; };
+		D110BA662AE1403F00657E79 /* Observable+Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+Alias.swift"; sourceTree = "<group>"; };
 		D7C72A3D1FDC5C5D00EAAAAB /* NwiseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NwiseTests.swift; sourceTree = "<group>"; };
 		D7C72A411FDC5D8F00EAAAAB /* nwise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = nwise.swift; path = Source/RxSwift/nwise.swift; sourceTree = SOURCE_ROOT; };
 		DC612871209E80810053CBB7 /* mapMany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapMany.swift; sourceTree = "<group>"; };
@@ -565,6 +569,7 @@
 				BF79DA09206C145D008AA708 /* withUnretained.swift */,
 				DC612871209E80810053CBB7 /* mapMany.swift */,
 				A23E148621A9EFC000CD5B2F /* partition.swift */,
+				D110BA662AE1403F00657E79 /* Observable+Alias.swift */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -1063,6 +1068,7 @@
 				BF515CE21F3F371600492640 /* fromAsync.swift in Sources */,
 				DC612872209E80810053CBB7 /* mapMany.swift in Sources */,
 				5386076F1E6F1C0A000361DE /* mapTo+RxCocoa.swift in Sources */,
+				D110BA672AE1403F00657E79 /* Observable+Alias.swift in Sources */,
 				A23E148B21A9F03600CD5B2F /* partition+RxCocoa.swift in Sources */,
 				538607B71E6F334B000361DE /* repeatWithBehavior.swift in Sources */,
 				538607AC1E6F334B000361DE /* catchErrorJustComplete.swift in Sources */,
@@ -1149,6 +1155,7 @@
 				DC612873209E80810053CBB7 /* mapMany.swift in Sources */,
 				BF79DA0B206C145D008AA708 /* withUnretained.swift in Sources */,
 				A23E148821A9EFC000CD5B2F /* partition.swift in Sources */,
+				D110BA682AE1403F00657E79 /* Observable+Alias.swift in Sources */,
 				A23E148C21A9F03600CD5B2F /* partition+RxCocoa.swift in Sources */,
 				BF515CE81F3F3B0000492640 /* fromAsync.swift in Sources */,
 				BF515CEA1F3F3B0300492640 /* curry.swift in Sources */,
@@ -1236,6 +1243,7 @@
 				DC612874209E80810053CBB7 /* mapMany.swift in Sources */,
 				BF79DA0C206C145D008AA708 /* withUnretained.swift in Sources */,
 				A23E148921A9EFC000CD5B2F /* partition.swift in Sources */,
+				D110BA692AE1403F00657E79 /* Observable+Alias.swift in Sources */,
 				A23E148D21A9F03600CD5B2F /* partition+RxCocoa.swift in Sources */,
 				BF515CE91F3F3B0100492640 /* fromAsync.swift in Sources */,
 				BF515CEB1F3F3B0300492640 /* curry.swift in Sources */,
