@@ -9,4 +9,4 @@
 import RxSwift
 
 // Needed to disambiguate between Foundation's Observable and RxSwift's Observable
-typealias Observable = RxSwift.Observable
+public typealias Observable = RxSwift.Observable
